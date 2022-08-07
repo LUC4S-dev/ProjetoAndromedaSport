@@ -1,0 +1,187 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-color: black;
+
+
+}
+
+.container{
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    background-color: rgba(80, 77, 77, 0.781);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+
+}
+
+.logo{
+    /* Logo_topo_CheckApp 1 */
+   position: absolute;
+   font-size: 30px;
+   width: 167px;
+   height: 53px;
+   left: 45%;
+   transform: translateX(-50%);
+   top: 20%;
+   text-align: center;
+   line-height: 70px;
+   color: yellow;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+
+}
+
+
+#usuario{
+   margin-left: 50%;
+   transform: translateX(-50%);
+   height: 25px;
+   width: 400px;
+   margin-top: 150px;
+   border-radius: 5px;
+   border: none;
+   box-shadow: 0 0 0 0;
+   outline: 0;
+   padding: 10px;
+
+}
+
+input::-webkit-input-placeholder{
+    position: relative;
+    left: 10px;
+}
+
+.btnRecuperarSenha{
+    height: 40px;
+    width: 250px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.btnRecuperarSenha:hover{
+    height: 40px;
+    width: 250px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    
+}
+
+.btnRecuperarSenha:active{
+    height: 40px;
+    width: 250px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    border: solid black 1px;
+    
+}
+
+
+@media screen and (max-width: 420px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-image: url(../../assets/images/backgorund-login.jpg);
+        background-size: cover;
+        
+        }
+
+
+    .container{
+        position: absolute;
+        height: 250px;
+        width: 360px;
+        background-color: rgba(34, 31, 31, 0.781);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+    
+    }
+
+    #usuario{
+        margin-left: 50%;
+        transform: translateX(-50%);
+        height: 40px;
+        width: 300px;
+        margin-top: 100px;
+        border-radius: 5px;
+        border: none;
+     }
+
+}
+
+@media screen and (max-width: 420px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    body{
+        background-image: none;
+        background-color: rgb(211, 197, 197);
+        /* background-size: cover; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        @font-face {
+            font-family:'Montserrat';
+            src: url('Montserrat-VariableFont_wght');
+        }
+    }
+
+    .container{
+        position: fixed;
+        height: 300px;
+        width: 400px;
+        background-color: rgba(34, 31, 31, 0.781);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+    
+    }
+
+    #usuario{
+        margin-left: 50%;
+        transform: translateX(-50%);
+        height: 20px;
+        width: 300px;
+        margin-top: 125px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 0 0 0;
+        outline: 0;
+        padding: 10px;
+     
+     }
+
+}
